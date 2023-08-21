@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to bottom, #A6F2FC, #0D9CC7);
+}
+.nav-menu {
+    background-color: white;
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    border-right: 1px solid rgb(128, 128, 128, 0.5);
+    box-shadow: 1px 1px 10px rgb(128, 128, 128, 0.5);
+}
+.nav-menu ul{
+    display: block;
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    text-align: left;
+    list-style: none;
+    height: 30%;
+    text-indent: 30%;
+}
+.nav-menu ul li{
+    display: block;
+    height: 33.3%;
+    padding-top: 6%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid gray;
+}
+.nav-menu ul li:hover{
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+}
+.home {
+    display: block;
+    width: 80%;
+    height: 620px;
+    float: right;
+}
+.arabella-img {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    height: 300px;
+    left: 25%;
+    top: 10%;
+    width: 240px;
+}
+.ara-name {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    left: 43%;
+    top: 10%;
+}
+.About {
+    position: relative;
+    width: 80%;
+    float: right;
+    height: 750px;
+    text-align: left;
+    font-size: 40px;
+    padding-top: 2%;
+}
+.about-frame {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+}
+.about-frame h1{
+    margin: 5% 0;
+}
+.about-frame .info-header {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+.about-frame .info-header li{
+    display: block;
+    width: 33.3%;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.6);
+    box-shadow: 0 2px 0 0 rgb(128, 128, 128, 0.6);
+}
+.about-frame .info-header li:hover{
+    cursor: pointer;
+    background-color: rgb(195, 195, 195);
+}
+.info-about {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 82%;
+}
+.intro {
+    display: block;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 60px;
+    transition: 0.6s;
+}
+.likes {
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    line-height: 70px;
+    padding-top: 10%;
+    font-size: 50px !important;
+    transition: 0.6s;
+}
+.likes .info-header3{
+    display: block;
+    text-align: left;
+    list-style-type: disc;
+    padding-top: 10%;
+    font-size: 30px;
+}
+.hobbies {
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    line-height: 70px;
+    padding-top: 10%;
+    transition: 0.6s;
+    display: none;
+    width: 60% !important;
+    transition: 0.6s;
+}
+.contact {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    float: right;
+}
+.contact h1 {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.contact-frame{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    padding-top: 10%;
+    row-gap: 0;
+    width: 50%;
+    height: 70%;
+}
+.contact-frame div{
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    margin: 0 auto;
+    height: 60px;
+    width: 200px;
+    border: 1px solid black;
+}
